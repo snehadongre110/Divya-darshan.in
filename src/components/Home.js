@@ -7,6 +7,10 @@ import FooterComponent from './footer';
 const Home = () => {
   return (
     <div>
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
       {/* Navigation content */}
         <HeaderComponent />
         {/* main Body of home page */}
